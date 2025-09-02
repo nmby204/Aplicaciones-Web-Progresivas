@@ -1,0 +1,15 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos de lock (opcional, si quieres que npm lo genere en cada instalación)
+package-lock.json
+yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entornos locales y temporales
+.DS_Store
+.env

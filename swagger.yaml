@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: API de Ejemplo
+  description: Esta es una API mínima solo para probar Swagger UI
+  version: "1.0.0"
+servers:
+  - url: http://localhost:3000
+paths:
+  /hello:
+    get:
+      summary: Devuelve un saludo
+      responses:
+        '200':
+          description: Saludo exitoso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Hola mundo"
